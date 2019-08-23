@@ -1,6 +1,6 @@
 # Get all regions
 http://localhost:8080/regions
-'''
+```
 [
     {
         "id": 1,
@@ -13,6 +13,6 @@ http://localhost:8080/regions
         ]
     }
 ]
-'''
+```
 
 
