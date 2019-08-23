@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/city")
+@RequestMapping("/cities")
 @Slf4j
 @RequiredArgsConstructor
 public class ControllerCity {
