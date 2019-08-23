@@ -1,4 +1,4 @@
-# Get all regions
+## Get all regions
 GET method http://localhost:8080/regions
 ```
 [
