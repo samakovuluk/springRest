@@ -82,7 +82,7 @@ Response body
     "name": "Астана"
 }
 ```
-## Change the name of city
+## Change the name of region
 PUT method http://localhost:8080/regions/{id}
 
 Body
