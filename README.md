@@ -14,7 +14,7 @@ GET method http://localhost:8080/regions
     }
 ]
 ```
-# Get all cities
+## Get all cities
 GET method http://localhost:8080/cities
 ```
 [
@@ -24,13 +24,14 @@ GET method http://localhost:8080/cities
     }
 ]
 ```
-# Get exact region
+## Get exact region
 GET method http://localhost:8080/regions/{id}
-# Get exact city
+## Get exact city
 GET method http://localhost:8080/cities/{id}
 
-# Add new region
+## Add new region
 POST method http://localhost:8080/regions
+
 Body
 ```
  {
@@ -46,8 +47,9 @@ Response body
     "cities": []
 }
 ```
-# Add new city
+## Add new city
 POST method http://localhost:8080/cities
+
 Body
 ```
  {
@@ -63,8 +65,9 @@ Response body
     "name": "Алматы"
 }
 ```
-# Change the name of city
+## Change the name of city
 PUT method http://localhost:8080/cities/{id}
+
 Body
 ```
  {
@@ -79,8 +82,9 @@ Response body
     "name": "Астана"
 }
 ```
-# Change the name of city
+## Change the name of city
 PUT method http://localhost:8080/regions/{id}
+
 Body
 ```
  {
@@ -95,8 +99,9 @@ Response body
     "cities": []
 }
 ```
-# Delete city or region
+## Delete city or region
 DELETE method http://localhost:8080/regions/{id}
+
 DELETE method http://localhost:8080/cities/{id}
 
 
